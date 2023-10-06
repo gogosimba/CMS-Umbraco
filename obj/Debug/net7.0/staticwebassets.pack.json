@@ -1,0 +1,209 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\01_Home.png",
+      "PackagePath": "staticwebassets\\images\\01_Home.png"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\03_Contact.png",
+      "PackagePath": "staticwebassets\\images\\03_Contact.png"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\effects\\EWlement.svg",
+      "PackagePath": "staticwebassets\\images\\effects\\EWlement.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\effects\\background-lines-right.svg",
+      "PackagePath": "staticwebassets\\images\\effects\\background-lines-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\effects\\background-lines-white-right.svg",
+      "PackagePath": "staticwebassets\\images\\effects\\background-lines-white-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\effects\\background-lines.svg",
+      "PackagePath": "staticwebassets\\images\\effects\\background-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\effects\\background-wavy-lines.svg",
+      "PackagePath": "staticwebassets\\images\\effects\\background-wavy-lines.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\Logo.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\Logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\dorfus.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\dorfus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\gobona.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\gobona.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\logotype-white.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\logotype-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\martino.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\martino.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\paperz.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\paperz.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\logos\\square.svg",
+      "PackagePath": "staticwebassets\\images\\logos\\square.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\adeolu.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\adeolu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\airfocus.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\airfocus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\amy-hirschi.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\amy-hirschi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\annie-spratt.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\annie-spratt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\carlos-muza.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\carlos-muza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\christina-wocintech.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\christina-wocintech.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\christina-wocintechchat-com-PlikkWB79qs-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\christina-wocintechchat-com-PlikkWB79qs-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\christina-wocintechchat-com-SJvDxw0azqw-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\christina-wocintechchat-com-Zpzf7TLj_gA-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\christina-wocintechchat-com-Zpzf7TLj_gA-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\damir-kopezhanov.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\damir-kopezhanov.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\daria-pimkina-Dj5HnHMtkH0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\daria-pimkina-Dj5HnHMtkH0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\daria-pimkina.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\daria-pimkina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\emiliano-vittoriosi.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\emiliano-vittoriosi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\experience.svg",
+      "PackagePath": "staticwebassets\\images\\pictures\\experience.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\intelligence.svg",
+      "PackagePath": "staticwebassets\\images\\pictures\\intelligence.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\itay-verchik.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\itay-verchik.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\jason-goodman.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\jason-goodman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\joseph-gonzalez.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\joseph-gonzalez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\kobu-agency.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\kobu-agency.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\linkedin-sales-solutions.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\linkedin-sales-solutions.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\marek-levak.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\marek-levak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\oli-dale.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\oli-dale.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\strategic.svg",
+      "PackagePath": "staticwebassets\\images\\pictures\\strategic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\the-climate-reality-project.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\the-climate-reality-project.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\the-connected-narrative.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\the-connected-narrative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\thumb-up.svg",
+      "PackagePath": "staticwebassets\\images\\pictures\\thumb-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\tony-luginsland-ODrd-02Q6JI-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\tony-luginsland-ODrd-02Q6JI-unsplash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\tony-luginsland.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\tony-luginsland.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\pictures\\vince-veras.jpg",
+      "PackagePath": "staticwebassets\\images\\pictures\\vince-veras.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Jonathans\\OneDrive\\Documents\\Skolan\\CMS\\Umbraco\\Crito\\CMS-Umbraco\\wwwroot\\images\\showcase-image.svg",
+      "PackagePath": "staticwebassets\\images\\showcase-image.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Crito.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Crito.props",
+      "PackagePath": "build\\Crito.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Crito.props",
+      "PackagePath": "buildMultiTargeting\\Crito.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Crito.props",
+      "PackagePath": "buildTransitive\\Crito.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
