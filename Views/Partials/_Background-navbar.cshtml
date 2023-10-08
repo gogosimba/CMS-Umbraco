@@ -1,7 +1,21 @@
 ﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@using Umbraco.Cms.Core
+@using Umbraco.Cms.Core.Models
+@using Umbraco.Cms.Core.Models.PublishedContent
+@using Umbraco.Cms.Core.Routing
+@using Umbraco.Extensions
+
+@inject IPublishedValueFallback PublishedValueFallback
+@inject IPublishedUrlProvider PublishedUrlProvider
+@{ 
+    var site = Model.Root();
+    var selection = Model.Root().Children.Where(x => x.IsVisible(PublishedValueFallback)).ToArray(); 
+}
 <header class="background-navbar">
     <div class="container">
-      <div class="logo"><img src="images/logos/Logo.svg" alt="Crito" /></div>
+      <div class="logo">
+          <img src="~/images/logos/Logo.svg" alt="Crito" />
+      </div>
       <i class="mobile-bars fa-solid fa-bars"></i>
       <div class="info-menu">
         <div class="info">
@@ -30,10 +44,14 @@
         </div>
         <div class="menu">
           <div class="navmenu">
-            <a class="active" href="index.html">Home</a>
-            <a href="service.html">Service</a>
-            <a href="news.html">News</a>
-            <a href="contact.html">Contact</a>
+            <a class="@(Model.Id == site.Id ? "active":null)" href="@site.Url()">@site.Name</a>
+            @if (selection?.Length > 0)
+            {
+                @foreach (var item in selection)
+                {
+                    <a class="@(item.IsAncestorOrSelf(Model) ? "active":null)" href="@item.Url(PublishedUrlProvider)">@item.Name</a>
+                 }
+            }
           </div>
           <div class="login-btn">
             <button class="theme-btn">
