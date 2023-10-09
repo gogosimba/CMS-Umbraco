@@ -1,3 +1,7 @@
+using Crito.Contexts;
+using Crito.Services;
+using Microsoft.EntityFrameworkCore;
+
 namespace Crito
 {
     public class Startup
@@ -29,12 +33,16 @@ namespace Crito
         /// </remarks>
         public void ConfigureServices(IServiceCollection services)
         {
+            
             services.AddUmbraco(_env, _config)
                 .AddBackOffice()
                 .AddWebsite()
                 .AddDeliveryApi()
                 .AddComposers()
                 .Build();
+            services.AddUmbracoEFCoreContext<DataContext>("{UmbracoDatabase}", "{Microsoft.Data.Sqlite}");
+            services.AddScoped<ContactRequestService>();
+            services.AddScoped<NewsLetterService>();
         }
 
         /// <summary>
