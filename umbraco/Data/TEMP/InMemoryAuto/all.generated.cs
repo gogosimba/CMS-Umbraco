@@ -5,8 +5,8 @@ using  Umbraco.Cms.Core.PublishedCache;
 using  Umbraco.Cms.Infrastructure.ModelsBuilder;
 using  Umbraco.Cms.Core;
 using  Umbraco.Extensions;
-[assembly:ModelsBuilderAssembly(IsInMemory = true, SourceHash = "2fce145cc55ad612f410f8c9f222ebb48577e253")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
+[assembly:ModelsBuilderAssembly(IsInMemory = true, SourceHash = "ba701ac573dfa43a9ee62130bfafcbfdc1555ac4")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
 // FILE: models.generated.cs
@@ -74,14 +74,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string Description => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetDescription(this, _publishedValueFallback);
 
 		///<summary>
-		/// logoImage
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("logoImage")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> LogoImage => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetLogoImage(this, _publishedValueFallback);
-
-		///<summary>
 		/// title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
@@ -119,7 +111,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("showcaseImage")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> ShowcaseImage => global::Umbraco.Cms.Web.Common.PublishedModels.ShowcaseSettings.GetShowcaseImage(this, _publishedValueFallback);
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops ShowcaseImage => global::Umbraco.Cms.Web.Common.PublishedModels.ShowcaseSettings.GetShowcaseImage(this, _publishedValueFallback);
 
 		///<summary>
 		/// Showcase Title
@@ -138,11 +130,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		string Description { get; }
-
-		/// <summary>logoImage</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> LogoImage { get; }
 
 		/// <summary>title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
@@ -195,19 +182,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public static string GetDescription(IPageSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<string>(publishedValueFallback, "description");
 
 		///<summary>
-		/// logoImage
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("logoImage")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> LogoImage => GetLogoImage(this, _publishedValueFallback);
-
-		/// <summary>Static getter for logoImage</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
-		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		public static global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> GetLogoImage(IPageSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops>>(publishedValueFallback, "logoImage");
-
-		///<summary>
 		/// title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
@@ -243,7 +217,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		/// <summary>Showcase Image</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> ShowcaseImage { get; }
+		global::Umbraco.Cms.Core.Models.MediaWithCrops ShowcaseImage { get; }
 
 		/// <summary>Showcase Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
@@ -327,12 +301,12 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("showcaseImage")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> ShowcaseImage => GetShowcaseImage(this, _publishedValueFallback);
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops ShowcaseImage => GetShowcaseImage(this, _publishedValueFallback);
 
 		/// <summary>Static getter for Showcase Image</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		public static global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> GetShowcaseImage(IShowcaseSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops>>(publishedValueFallback, "showcaseImage");
+		public static global::Umbraco.Cms.Core.Models.MediaWithCrops GetShowcaseImage(IShowcaseSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<global::Umbraco.Cms.Core.Models.MediaWithCrops>(publishedValueFallback, "showcaseImage");
 
 		///<summary>
 		/// Showcase Title
@@ -451,14 +425,6 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string Description => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetDescription(this, _publishedValueFallback);
 
 		///<summary>
-		/// logoImage
-		///</summary>
-		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
-		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		[ImplementPropertyType("logoImage")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> LogoImage => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetLogoImage(this, _publishedValueFallback);
-
-		///<summary>
 		/// title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
@@ -496,7 +462,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("showcaseImage")]
-		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> ShowcaseImage => global::Umbraco.Cms.Web.Common.PublishedModels.ShowcaseSettings.GetShowcaseImage(this, _publishedValueFallback);
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops ShowcaseImage => global::Umbraco.Cms.Web.Common.PublishedModels.ShowcaseSettings.GetShowcaseImage(this, _publishedValueFallback);
 
 		///<summary>
 		/// Showcase Title

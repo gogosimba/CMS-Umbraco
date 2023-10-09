@@ -18,10 +18,11 @@
       </div>
       <div class="showcase-image">
           @{
-                var ShowcaseImage = Model.Value<MediaWithCrops>("showcaseImage");
-                if (ShowcaseImage != null)
+                var showcaseImage = Model.Value<IPublishedContent>("showcaseImage");
+                var showCaseImageUrl = showcaseImage?.Url();
+                if (showcaseImage != null)
                 {
-                    <img src="@ShowcaseImage.MediaUrl()" alt="alt" />
+                    <img src="@showCaseImageUrl" alt="alt" />
                 }
             }
       </div>
