@@ -16,8 +16,8 @@ using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 
-[assembly:ModelsBuilderAssembly(IsInMemory = true, SourceHash = "987a8513053766248189dbbf53f39ee533723ec0")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(IsInMemory = true, SourceHash = "bd957570cb1c57a884b3bf2b08b47dd3b3b5716e")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.4")]
 
 namespace Umbraco.Cms.Web.Common.PublishedModels
 {
@@ -25,12 +25,17 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 	/// <summary>Page Settings</summary>
 	public partial interface IPageSettings : IPublishedElement
 	{
-		/// <summary>Description</summary>
+		/// <summary>page Description</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		string Description { get; }
 
-		/// <summary>title</summary>
+		/// <summary>keywords</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		string Keywords { get; }
+
+		/// <summary>page Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		string Title { get; }
@@ -68,27 +73,40 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		// properties
 
 		///<summary>
-		/// Description
+		/// page Description
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("description")]
 		public virtual string Description => GetDescription(this, _publishedValueFallback);
 
-		/// <summary>Static getter for Description</summary>
+		/// <summary>Static getter for page Description</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		public static string GetDescription(IPageSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<string>(publishedValueFallback, "description");
 
 		///<summary>
-		/// title
+		/// keywords
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("keywords")]
+		public virtual string Keywords => GetKeywords(this, _publishedValueFallback);
+
+		/// <summary>Static getter for keywords</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		public static string GetKeywords(IPageSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<string>(publishedValueFallback, "keywords");
+
+		///<summary>
+		/// page Title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("title")]
 		public virtual string Title => GetTitle(this, _publishedValueFallback);
 
-		/// <summary>Static getter for title</summary>
+		/// <summary>Static getter for page Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		public static string GetTitle(IPageSettings that, IPublishedValueFallback publishedValueFallback) => that.Value<string>(publishedValueFallback, "title");
@@ -316,7 +334,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Cms.Core.Models.MediaWithCrops> BrandImages => global::Umbraco.Cms.Web.Common.PublishedModels.Brands.GetBrandImages(this, _publishedValueFallback);
 
 		///<summary>
-		/// Description
+		/// page Description
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
@@ -324,7 +342,15 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string Description => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetDescription(this, _publishedValueFallback);
 
 		///<summary>
-		/// title
+		/// keywords
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("keywords")]
+		public virtual string Keywords => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetKeywords(this, _publishedValueFallback);
+
+		///<summary>
+		/// page Title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
@@ -452,7 +478,23 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		// properties
 
 		///<summary>
-		/// Description
+		/// Postal Code
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("contactInformationPostalCode")]
+		public virtual string ContactInformationPostalCode => this.Value<string>(_publishedValueFallback, "contactInformationPostalCode");
+
+		///<summary>
+		/// StreetName
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("contactInformationStreetName")]
+		public virtual string ContactInformationStreetName => this.Value<string>(_publishedValueFallback, "contactInformationStreetName");
+
+		///<summary>
+		/// page Description
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
@@ -460,7 +502,15 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string Description => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetDescription(this, _publishedValueFallback);
 
 		///<summary>
-		/// title
+		/// keywords
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("keywords")]
+		public virtual string Keywords => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetKeywords(this, _publishedValueFallback);
+
+		///<summary>
+		/// page Title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
@@ -500,7 +550,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		// properties
 
 		///<summary>
-		/// Description
+		/// page Description
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
@@ -508,7 +558,15 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual string Description => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetDescription(this, _publishedValueFallback);
 
 		///<summary>
-		/// title
+		/// keywords
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("keywords")]
+		public virtual string Keywords => global::Umbraco.Cms.Web.Common.PublishedModels.PageSettings.GetKeywords(this, _publishedValueFallback);
+
+		///<summary>
+		/// page Title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "12.1.2+9230b25")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]

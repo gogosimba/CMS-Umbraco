@@ -3,8 +3,6 @@
 @using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
 @{
 	Layout = "_Layout.cshtml";
-    ViewData["PageTitle"] = @Model.Value("title");
-	ViewData["PageDescription"] = @Model.Value("description");
 }
 @await Html.PartialAsync("_Background-showcase")
 @await Html.PartialAsync("_Brands")
