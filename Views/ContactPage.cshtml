@@ -43,7 +43,10 @@
                 <div class="contact-form-header">
                     <h2>Leave us a message<br> for any information.</h2>
                 </div>
-                <form>
+                
+                 @using (Html.BeginUmbracoForm("Index", "Contact", FormMethod.Post))
+                 {
+                    <form>
                     <div class="form-group">
                         <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp"
                             placeholder="Name*">
@@ -62,6 +65,8 @@
                         </button>
                     </div>
                 </form>
+                 }
+                
             </div>
         </section>
         <section class="google-map">
